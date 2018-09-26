@@ -8,6 +8,7 @@ const dbDebugger = require('debug')('app : db');
 
 const courses = require('./routes/courses');
 const home = require('./routes/home');
+const home = require('./routes/home/change');
 
 //app.set('view engine', 'pug');
 //app.set('views','./views'); //default;
